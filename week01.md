@@ -5,7 +5,7 @@ Introduction
 
 ## Notebooks
 
-* [introduction.ipynb](https://github.com/umbcdata602/spring2021/blob/master/week01_introduction.ipynb)
+* [introduction.ipynb](https://github.com/umbcdata602/spring2021/blob/master/introduction.ipynb)
     * Use the link at the top of the notebook to open it automatically in Google Colab.
     * Based on [Raschka ch01.ipynb](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch01/ch01.ipynb)
     * Introductory material is based on the reading from Chapter 1 of Raschka & Mirjalili, 3rd Edition.
