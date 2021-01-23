@@ -1,1 +1,3 @@
-# spring2021
+# Spring 2021
+
+### Week 1 -- 26 Jan
