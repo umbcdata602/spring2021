@@ -1,11 +1,11 @@
 
 # Week 4 -- Higher dimension (16 Feb)
 
-In class we'll investigate each of the classification models in Chapter 3, demonstrating and discussing:
+In class, we'll investigate each of the classification models in Chapter 3, demonstrating and discussing:
 
 * pros and cons of each algorithm
 * hyperparameters and sensitivities
-* relative performance with low dimensional datasets (Iris and make_blobs)
+* relative performance with low dimensional datasets (Iris and make_blobs, see the assignment below)
 
 We'll then add and implement concepts from Chapters 4 and 5, with special emphasis on
 
@@ -14,14 +14,17 @@ We'll then add and implement concepts from Chapters 4 and 5, with special emphas
 * dimensionality reduction (PCA)
 
 Class discussions will involve working with code from the notebooks associated with Chapter 3, 4 & 5.
+In particular, you should be familiar with the code in 
+[ch04.ipynb](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch04/ch04.ipynb) 
+and [ch05.ipynb](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch05/ch05.ipynb), 
+and able to run these notebooks in Colab.
 
 ## Assignment
 
-* Your code won't be collected. 
-* However, you should be ready to share your code in class. 
+* Your code won't be collected. However, you should be ready to share your code in class. 
 * Begin with [classification.ipynb](https://github.com/umbcdata602/spring2021/blob/master/classification.ipynb)
 * Use the following code to create a dataset with `make_blobs`
-* Perform the analysis for Decision Tree, KNN, SVC, and Naive Bayes, 
+* Perform this analysis for each of the following: Decision Tree, KNN, SVC, and Naive Bayes
 
 ```
 from sklearn.datasets import make_blobs
