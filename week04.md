@@ -1,7 +1,7 @@
 
 # Week 4 -- Higher dimension (16 Feb)
 
-In class, continuing from last week, we'll investigate each of the classification models in Chapter 3, demonstrating and discussing:
+In class we'll investigate each of the classification models in Chapter 3, demonstrating and discussing:
 
 * pros and cons of each algorithm
 * hyperparameters and sensitivities
@@ -17,12 +17,11 @@ Class discussions will involve working with code from the notebooks associated w
 
 ## Assignment
 
-This assignment focusses on KNN, will give you an idea of the discussion we'll have in class
-for all the classification models.
-Be ready to share your code in class, and to investigate similar questions related to the other models.
-
+* Your code won't be collected. 
+* However, you should be ready to share your code in class. 
 * Begin with [classification.ipynb](https://github.com/umbcdata602/spring2021/blob/master/classification.ipynb)
 * Use the following code to create a dataset with `make_blobs`
+* Perform the analysis for Decision Tree, KNN, SVC, and Naive Bayes, 
 
 ```
 from sklearn.datasets import make_blobs
@@ -35,8 +34,9 @@ X, y = make_blobs(n_samples, 2, centers=2, random_state=2, cluster_std=std_true)
 
 * Use the `train_test_split` method in scikit-learn to split the data with `test_size=0.3`
 * Use the `StandardScaler` in scikit-learn to scale the data
-* Use the `KNeighborsClassifier` class in scikit-learn to create and train a classifier. 
-* Plot the decision region and investigate different values of K (overfitting and underfitting).
+* For each model, use the appropriate scikit-learn model to create and train a classifier.
+    * Refer to week 3 reading assignment for guidance on the model you should use.
+* Demonstrate overfitting and underfitting by plot the decision region and for different values of hyperparameters
 * Use the confusion_matrix to help assess model performance.
 
 ## Reading
