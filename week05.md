@@ -15,7 +15,7 @@ and able to run these notebooks in Colab.
 * Raschka Chapter 5 -- Compressing data via dimensionality reduction
     * We'll continue working through material in Chapter 5 
 
-# Study Guide
+## Study Guide
 
 Questions will draw from the following list of topics. 
 In addition, some technical questions will relate to Raschka's ch05.ipynb and ch06.ipynb. 
