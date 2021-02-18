@@ -11,7 +11,7 @@ and able to run these notebooks in Colab.
 ## Reading
 
 * Raschka Chapter 6 -- Model evaluation and hyperparameter tuning
-    * Chapter 6 will be the primary focus for this week 5
+    * Chapter 6 will be the primary focus for week 5
 * Raschka Chapter 5 -- Compressing data via dimensionality reduction
     * We'll continue working through material in Chapter 5 
 
