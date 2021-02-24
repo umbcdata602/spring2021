@@ -12,8 +12,9 @@ demonstrate and describe the sensitivity to dimensionality reduction in the anal
 
 ## Study guide for Week #6 quiz
 
-Technical questions will relate to the assignment (above), and Raschka's ch07.ipynb.
-The rest of the questions will draw from the following list of topics.
+Technical questions will relate to the assignment (above), and Raschka's 
+[ch07.ipynb](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch07/ch07.ipynb).
+Other questions will draw from the following list of topics.
 
 * Ensemble methods and meta-classifiers
 * Majority voting
