@@ -6,16 +6,17 @@
     * Choose something of interest to you and strive to make it interesting for your classmates.
     * You must use publicly available data.
 * You can work in groups of 2-3.  Let me know if you want to work independently.
-* DATES
+* Important dates:
     * 23 March -- Proposals
         * Title and 1-paragraph project proposal from each team
-        * Presented and discussed during first class following spring break
-        * Presented on a shared screen (slides okay)
+        * Presented and discussed during first class following spring break (2-3 minutes each team)
+        * Presented on a shared screen (1 or 2 slides okay)
     * 30 March -- Datasets
         * Colab notebook that reads the primary dataset
+        * Presented and discussed in class -- (2-3 minutes for each team)
     * 18 May (possibly 11 May)
-        * Each group shall make an in-class presentation of 8-10 minutes during class/exam time on that date.
-        * Shared Colab notebooks provided on the date/time of the final exam.
+        * Each group shall make an in-class presentation of 8-10 minutes during class/final exam time.
+        * Each team will provide a shared Colab notebook, due at the time of the presentation.
 
 ## Requirements
 
