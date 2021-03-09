@@ -21,10 +21,10 @@
 ## Requirements
 
 * The project must be self contained in a Google Colab notebook linked to your UMBC account.
-* Anyone with a UMBC account should be able to run the notebook with its data in Colab without errors.
-* Notebooks should run to completion in a couple minutes. If necessary, provide saved intermediate results.
+* Anyone with a UMBC account should be able to run the notebook to completion in Colab without errors.
+* Notebooks should run to completion in a couple minutes. So, if necessary, provide saved intermediate results.
 * Notebooks should be heavily referenced and code should be well documented.
-* Make generous use of data visualizations, use markdown cells to describe/discuss visualizations.
+* Make generous use of data visualizations; use markdown cells to describe/discuss visualizations.
 
 ## Content
 
