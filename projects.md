@@ -1,7 +1,7 @@
 
 # Projects
 
-* Projects designed to get you to research existing literature.
+* Projects are desgined to get you to research existing literature.
     * You should learn something new, practice what you learn and explain it in your own words.
     * Choose something of interest to you and strive to make it interesting for your classmates.
     * You must use publicly available data.
