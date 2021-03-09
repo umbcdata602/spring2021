@@ -53,9 +53,6 @@
 
 * Start early, don't wait until the last minute.
     * I'll try to respond to questions quickly (less than 72 hours).
-    * As the term rolls to an end, it may become harder for me to respond in a timely manner. 
     * Time your presentation -- 8-10 minutes is not a lot of time.
 * Ask questions
-    * I will be available to comment on drafts and questions.
-    * Send me email with a link to your notebook.
-    * Make your question/issue easy to find in your notebook.
+    * As the term rolls to an end, it may become harder for me to respond in a timely manner. 
