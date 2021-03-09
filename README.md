@@ -1,5 +1,7 @@
 # Spring 2021
 
+* [Projects](./projects.md)
+
 Reading, assignments & study guides....
 
 * [Week 7](./week07.md) -- 9 Mar
