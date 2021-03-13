@@ -5,7 +5,6 @@
     * You should learn something new, practice what you learn and explain it in your own words.
     * Choose something of interest to you and strive to make it interesting for your classmates.
     * You must use publicly available data.
-* You can work in groups of 2-3.  Let me know if you want to work independently.
 * Important dates:
     * 23 March -- Proposals
         * Title and 1-paragraph project proposal from each team
