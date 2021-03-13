@@ -5,9 +5,11 @@
 
 * Rasckha & Mirjalili, Chapter 10
 
-## Assignment (due in class on 23 Mar 2020)
+## Assignment
 
-* Read the [project guidance](./projects.md) 
+Due in class on 23 Mar 2021...
+
+* See: [project guidance](./projects.md) 
 
 ## Study guide
 
