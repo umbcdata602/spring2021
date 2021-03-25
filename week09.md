@@ -5,6 +5,10 @@
 
 * Rasckha & Mirjalili, Chapter 11
 
+## Projects
+
+See: [projects.md](./projects.md) -- Be prepared for a short team presentation.
+
 ## Assignment
 
 Beginning with https://github.com/umbcdata602/spring2021/blob/master/week08.ipynb,
