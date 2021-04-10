@@ -1,7 +1,8 @@
 
 # Week 11 -- (13 Apr 2021)
 
-* [This document](https://github.com/umbcdata602/howtos/blob/master/colab.md) has instructions for loading data into Colab.
+* [This document](https://github.com/umbcdata602/howtos/blob/master/colab.md) has instructions for 
+loading data into Colab so that anyone can run your notebook. You may find it useful for your projects.
 
 ## Assignment
 
@@ -11,6 +12,8 @@ Adapt the code to use the following data.
 ```
 y_train = np.array([1.0, 3.3, 4.1, 6.0, 8.3, 6.3, 7.6, 6.4, 7.0, 6.5])
 ```
+
+Think about how you might modify the code to fit a least-squares parabola.
 
 ## Reading and Study Guide
 
