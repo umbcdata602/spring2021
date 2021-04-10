@@ -14,7 +14,7 @@ Part 1: Adapt the code to use the following data.
 y_train = np.array([1.0, 3.3, 4.1, 6.0, 8.3, 6.3, 7.6, 6.4, 7.0, 6.5])
 ```
 
-Part 2: Adapt the code to fit a least-squares parabola.
+Part 2: Adapt the code to fit a least-squares parabola with the data from Part 1.
 
 ## Reading and Study Guide
 
