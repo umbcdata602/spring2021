@@ -7,13 +7,14 @@ loading data into Colab so that anyone can run your notebook. You may find it us
 ## Assignment
 
 Cells 1-10 in [ch13b_part2.ipynb](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch13/ch13_part2.ipynb) show how to use tensorflow to fit a least-squares line.
-Adapt the code to use the following data.
+
+Part 1: Adapt the code to use the following data.
 
 ```
 y_train = np.array([1.0, 3.3, 4.1, 6.0, 8.3, 6.3, 7.6, 6.4, 7.0, 6.5])
 ```
 
-Think about how you might modify the code to fit a least-squares parabola.
+Part 2: Adapt the code to fit a least-squares parabola.
 
 ## Reading and Study Guide
 
