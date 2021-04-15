@@ -18,4 +18,4 @@ Convolutional Neural Networks (CNNs)
 
 ## Study guide
 
-* Quiz questions will be drawn from the reading, notebooks and the two MIT 6.S191 lectures
+* Quiz questions will be drawn from the reading, notebooks and the two MIT 6.S191 videos
