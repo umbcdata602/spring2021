@@ -13,7 +13,7 @@
     * 30 March -- Datasets
         * Colab notebook that reads the primary dataset
         * Presented and discussed in class -- (2-3 minutes for each team)
-    * 18 May (possibly 11 May)
+    * 11 May -- Presentations
         * Each group shall make an in-class presentation of 8-10 minutes during class/final exam time.
         * Each team will provide a shared Colab notebook, due at the time of the presentation.
 
