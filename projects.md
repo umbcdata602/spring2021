@@ -16,6 +16,7 @@
     * 18 May (possibly 11 May)
         * Each group shall make an in-class presentation of 8-10 minutes during class/final exam time.
         * Each team will provide a shared Colab notebook, due at the time of the presentation.
+        * The powerpoint-style in-class presentation should include and describe visualizations from the notebook.
 
 ## Requirements
 
