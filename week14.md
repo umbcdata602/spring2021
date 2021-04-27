@@ -12,7 +12,7 @@ Generative Adversarial Networks (GANs), with a touch of Reinforcement Learning
     * NOTE: There is **no** expectation that your project will be complete on 4 May.
     * Rather, this is an opportunity for you to get feedback/guidance before final submission on 18 May.
 * Remember: Project presentations are May 11th
-    * 8-minute project presentations will occur during class time (not final exam time) on 11 May
+    * 8- to 10-minute project presentations will occur during class time (not final exam time) on 11 May
 * Remember: Final projects (colab notebooks) are due on or before May 18th
     * I'll create an assignment where you can post a link to your notebook.
 
