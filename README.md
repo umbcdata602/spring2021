@@ -4,6 +4,7 @@
 
 Reading, assignments & study guides....
 
+* [Week 14](./week14.md) -- 4 May
 * [Week 13](./week13.md) -- 27 Apr
 * [Week 12](./week12.md) -- 20 Apr
 * [Week 11](./week11.md) -- 13 Apr
