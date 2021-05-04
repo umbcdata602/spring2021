@@ -1,73 +1,57 @@
 
-# Colab and data
+# Colab
 
-There are many ways to get external data into a Colab notebook. 
-Some of these methods (e.g., uploading files from a local filesystem) do not work when 
-you're sharing your notebook with others.
-With shared notebooks, the easiest methods involve publicly accessible URLs that link to shared data files.
+How to import data into a Colab session.
 
-## Loading publicly accessible data
+## Publicly accessible data in github
 
-You can load publicly accessible data files into Colab using various techniques. 
-One approach we used in class involves the `curl` command, which is available in Colab notebooks.
-For example, the first line of the following sequence will load a compressed file
-from Raschka's publicly accessible github respository into any notebook.
-The `gunzip` command uncompresses the file in the notebook.
-And the `ls` command lists the uncompressed filenames so that you can access them from Python in your notebook.
+To load publicly accessible data from a github repository, 
+use the URL that appears provided by the "Raw" button that appears when you view the file from your browser.
+For example, the following code loads the Iris dataset from Raschka's 
+[public repo for Chapter 2]( https://github.com/rasbt/python-machine-learning-book-3rd-edition/tree/master/ch02).
 
-    ! curl -Lo movie_data.csv.gz https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch08/movie_data.csv.gz?raw=true
-    ! gunzip -f movie_data.csv.gz
-    ! ls /content
+    url = "https://raw.githubusercontent.com/rasbt/python-machine-learning-book-3rd-edition/master/ch02/iris.data"
+    data = pd.read_csv(url, header=None)
 
-The critical element is the URL that points to the "raw" data file. 
-Github repositories have a "Raw" button that provides that URL for individual files.
+This works for small files below the 100 MB
+[github file-size limit](https://docs.github.com/en/github/managing-large-files/conditions-for-large-files). 
 
-## Github
+## A shared file in your Google Drive
 
-If you store your data in a publicly accessible github repository from your github account, then you can share
-the data with anyone. 
-
-Note however, github file-size limits mean this will only works for "small" files.
-
-## UMBC & Google Drive
-
-UMBC uses Google Drive: https://wiki.umbc.edu/display/faq/Google+Drive
-
-## Google Drive & Colab
-
-[Google documentation](https://colab.research.google.com/notebooks/io.ipynb) describes several methods of
-getting data from a Google Drive into a Colab notebook.
-This approach works for larger files.
-But these methods require authentication, so they won't work in shared notebooks.
-
-In particular, one of the methods involves mounting your entire Google Drive in a Colab notebook. 
-This approach exposes all of the data in your Google drive to your Colab notebook.
-I do not recommend that you mount your entire Google Drive in Colab.
-Moreover, it requires authentication so it won't allow you to share data.
-
-## Sharing a single file
-
-You can share a single file from your google drive. 
-There are security considerations in this case as well, so be careful about this approach.
-However, if you choose to use the "Get shareable link" option for a file in your Google Drive, 
-that link has the information necessary so that anyone can load the file into Colab.  
-
-Here's an example of a shareable link (it is not a working example):
+If you choose the "Get shareable link" option for a file in your Google Drive,
+that link contains a unique ID that will allow anyone can load the file into their Colab session.
+For example, here's a shareable link (it is not a working example):
 
     https://drive.google.com/file/d/1C7Rw06hhv0HgyjN28nMie6iI77F7hewoL/view?usp=sharing
 
-That URL contains a unique ID for the file of interest. 
-The ID is the string `1C7Rw06hhv0HgyjN28nMie6iI77F7hewoL` that appears between the two `/` characters.
-You can use the ID to construct a URL that will allow anyone to download the file. In this example, the URL is
+The unique ID is the string `1C7Rw06hhv0HgyjN28nMie6iI77F7hewoL` that appears between the two `/` characters.
+Use it to construct a URL that you can use to download the file:
 
     https://drive.google.com/uc?export=download&id=1C7Rw06hhv0HgyjN28nMie6iI77F7hewoL
 
-Once you have such a string, anyone can use it to access the data from Colab without authentication.
-For example, if the shared file is a CSV file, then you can load the file with pandas as follows (again, this is not a working example):
+The download URL can be used to load the file into Colab without authentication.
+For example, if the shared file is CSV, then you can load it with pandas (again, this is not a working example):
 
     import pandas as pd
     url = "https://drive.google.com/uc?export=download&id=1C7Rw06hhv0HgyjN28nMie6iI77F7hewoL"
     df = pd.read_csv(url)
 
-There are file-size restrictions for this approach.
-Nevertheless, it works for files that exceed the github limits.
+There are file-size restrictions for this approach, but it works for files that exceed the github limits.
+
+## Compressed files
+
+Use the `curl` command to load publicly accessible files into a Colab session.
+Then use unix commands to manipulate those files.
+For example, 
+
+    ! curl -Lo movie_data.csv.gz https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/ch08/movie_data.csv.gz?raw=true
+    ! gunzip -f movie_data.csv.gz
+    ! ls /content
+
+## Large files shared from your Google Drive
+
+You can load large files from your [UMBC Google Drive](https://wiki.umbc.edu/display/faq/Google+Drive).
+[Google documentation](https://colab.research.google.com/notebooks/io.ipynb) describes several methods.
+This approach works for larger files, but requires authentication
+that can expose all the data in your folder, so be careful.
+Here's an example: https://github.com/umbcdata602/howtos/blob/master/colab_data.ipynb
