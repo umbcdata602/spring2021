@@ -1,6 +1,7 @@
 # Spring 2021
 
 * [Projects](./projects.md)
+* [Accessing your data from Colab](./colab.md)
 
 Reading, assignments & study guides....
 
